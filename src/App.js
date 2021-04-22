@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className="App-header">
-        <h1>Random Facts:</h1>
+        <h1>Picture of Cat, Fox, and Dog:</h1>
         <GetRandom />
         <DogPart />
       </div>

@@ -45,7 +45,7 @@ class GetRandom extends Component {
     return (
       <div>
         <button className="search-button" onClick={this.handleSearchClickCat}>
-          Search Cat
+          Click for Cat
         </button>
         <br />
         <p>{this.state.randomFact}</p>
