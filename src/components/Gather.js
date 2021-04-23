@@ -48,8 +48,12 @@ class GetRandom extends Component {
           Click for Cat
         </button>
         <br />
-        <p>{this.state.randomFact}</p>
-        <img src={this.state.randomPicture} />
+        <div > 
+          <img src={this.state.randomPicture} />
+        </div>
+        <div id="catStuff">
+          <p>{this.state.randomFact}</p>
+        </div>
       </div>
     );
   }

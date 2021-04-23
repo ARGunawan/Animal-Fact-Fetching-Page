@@ -28,6 +28,29 @@
   color: #61dafb;
 }
 
+#catStuff{
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+
+  background: #fff;
+  border-radius: 2%;
+  border-style: solid;
+  border-width: thin;
+  box-shadow: 0 0 5px #555;
+}
+
+p{
+  color: black;
+}
+img{
+  margin: 10px;
+  height: 300px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
